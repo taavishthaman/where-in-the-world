@@ -1,0 +1,50 @@
+.inputWrapper {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    left : 3.2rem;
+    top : 1.9rem;
+}
+
+.searchBar {
+    border: none;
+    width: 48rem;
+    height : 5.6rem;
+    border-radius: .5rem;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    padding-left : 7.4rem;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    font-family: 'Nunito Sans';
+}
+
+.searchBar::placeholder {
+    color: #848484;
+}
+
+.searchBarDark {
+    background-color: #2B3844;
+    color: #fff;
+}
+
+.searchBarDark::placeholder {
+    color: #fff;
+}
+
+@media(max-width : 56em) {
+    .searchBar {
+        height: 4.8rem;
+    }
+}
+
+@media(max-width : 45em) {
+    .searchBar {
+        width: 27.3rem;
+    }
+}

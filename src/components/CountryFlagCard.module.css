@@ -1,0 +1,11 @@
+.countryFlag {
+    width: 56rem;
+    height: 40.1rem;
+}
+
+@media(max-width : 45em) {
+    .countryFlag {
+        width: 32rem;
+        height: 22.9rem;
+    }
+}

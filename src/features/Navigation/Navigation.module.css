@@ -1,0 +1,20 @@
+.navigation {
+    padding: 0 5rem;
+    height: 15.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.navigationDark {
+    background-color: #202C36;
+}
+
+@media(max-width : 56em) {
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top : 2.4rem;
+    }
+}

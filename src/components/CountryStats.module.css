@@ -1,0 +1,124 @@
+.countryStatsContainer {
+    
+}
+
+.countryName {
+    color: #111517;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.countryNameDark {
+    color: #fff;
+}
+
+.countryStatsList {
+    display: flex;
+    gap : 14rem;
+    margin-top: 2.3rem;
+}
+
+.countryStatLabel {
+    color: #111517;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+}
+
+.countryStatLabelDark {
+    color: #fff;
+}
+
+.countryStatValue {
+    color: #111517;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 3.2rem;
+}
+
+.countryStatValueDark {
+    color: #fff;
+}
+
+.borderCountries {
+    display: flex;
+    gap: 1.6rem;
+    margin-top : 6.8rem;
+}
+
+.borderCountryBtn {
+    width: 9.6rem;
+    height: 2.8rem;
+    border-radius: 2px;
+    border: 0px solid #979797;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111517;
+    font-size: 1.4rem;
+    font-weight: 300;
+    display: 'inline-block';
+}
+
+.borderCountryBtnDark {
+    background-color: #2B3844;
+    color: #fff;
+}
+
+.countryContainer {
+    width: 40rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+@media(max-width : 85em) {
+    .countryStatsList {
+        flex-direction: column;
+    }
+
+    .countryContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width : 65em) {
+    .countryStatsList {
+        flex-direction: column;
+    }
+
+    .countryContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media(max-width : 45em) {
+    .countryStatsContainer {
+        
+    }
+
+    .countryContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .countryStatsList {
+        margin-top: 2.3rem;
+        justify-content: start;
+        
+    }
+    
+    .borderCountries {
+        flex-direction: column;
+    }
+
+    .borderCountryBtn {
+        width: 9.6rem;
+        height: 2.8rem;
+        font-size: 1.2rem;
+    }
+}

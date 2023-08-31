@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 7.5rem;
+    row-gap: 7.5rem;
+    padding: 0 7.8rem;
+    background-color: #FAFAFA;
+    padding-bottom: 60rem;
+    overflow-y: hidden;
+}
+
+.containerDark {
+    background-color: #202C36;
+}
+
+.loadingText {
+    color: #202C36;
+}
+
+.loadingTextDark {
+    color: #fff;
+}
+
+@media(max-width : 85em) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width : 65em) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 5rem;
+        margin-top: 2.8rem;
+    }
+}
+
+@media(max-width : 45em) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
