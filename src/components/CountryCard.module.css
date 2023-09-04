@@ -1,65 +1,65 @@
 .card {
-    height: 33.6rem;
-    width: 26.4rem;
-    border-radius: .5rem;
-    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
-    text-decoration: none;
-    color: #111517;
-    z-index: 2;
+  height: 33.6rem;
+  width: 26.4rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+  text-decoration: none;
+  color: #111517;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.cardDark {
+  background-color: #2b3844;
 }
 
 .countryFlag {
-    height: 16rem;
+  height: 16rem;
 }
 
 .countryStats {
-    padding : 2.4rem;
-    background-color: #FAFAFA;
-    border-bottom-left-radius: .5rem;
-    border-bottom-right-radius: .5rem;
-}
-
-.countryStatsDark {
-    background-color: #2B3844;
+  padding: 2.4rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .countryName {
-    color: #111517;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 2.6rem;
+  color: #111517;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.6rem;
 }
 
 .countryNameDark {
-    color: #fff;
+  color: #fff;
 }
 
 .stats {
-    margin-top: 1.6rem;
-    display: flex;
-    flex-direction: column;
-    row-gap: .8rem;
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
 }
 
 .statTitle {
-    color: #111517;
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 1.6rem;
+  color: #111517;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.6rem;
 }
 
 .statTitleDark {
-    color: #fff;
+  color: #fff;
 }
 
 .statName {
-    color: #111517;
-    font-size: 1.4rem;
-    font-weight: 300;
-    line-height: 1.6rem;
+  color: #111517;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.6rem;
 }
 
 .statNameDark {
-    color: #fff;
+  color: #fff;
 }
